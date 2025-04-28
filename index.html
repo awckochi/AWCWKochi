@@ -199,9 +199,9 @@
                 <div class="container">
                     <div class="hero-style7">
                         <!-- <span class="hero-subtitle" data-ani="slideindown" data-ani-delay="0.7s">Your Pool, Our Passion</span> -->
-                        <h1 class="hero-title" data-ani="slideindown" data-ani-delay="0.4s">Premium Swimming Pool Builder In Kerala</h1>
-                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.1s">Luxury & Affordable Pools - Designed, Built & Maintained for Comfort & Style</p>
-                        <div class="btn-group justify-content-center" data-ani="slideinup" data-ani-delay="0.5s">
+                        <h1 class="hero-title"><span data-ani="slideinleft" data-ani-delay="3s">Premium</span> <span data-ani="slideinleft" data-ani-delay="3.3s">Swimming</span> <span data-ani="slideinleft" data-ani-delay="3.6s">Pool</span> <span data-ani="slideinleft" data-ani-delay="3.9s">Builder</span> <span data-ani="slideinleft" data-ani-delay="4.3s">In</span> <span data-ani="slideinleft" data-ani-delay="4.6s">Kerala</span> </h1>
+                        <p class="hero-text" data-ani="slideinup" data-ani-delay="3s">Luxury & Affordable Pools - Designed, Built & Maintained for Comfort & Style</p>
+                        <div class="btn-group justify-content-center" data-ani="scalein" data-ani-delay="3s">
                             <a href="services.html" class="th-btn style4">Discover Our Services</a>
                         </div>
                     </div>
@@ -785,6 +785,35 @@
     All Js File
     ============================== -->
     <!-- Jquery -->
+    <!-- <script>
+        var i = 0;
+        var txt = 'Premium Swimming Pool Builder In Kerala';
+        var speed = 50;
+        
+        function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }
+    </script> -->
+    <!-- <script>
+        var i = 0;
+        var txt = 'Premium Swimming Pool Builder In Kerala';
+        var speed = 50;
+        
+        function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }
+        window.onload = function() {
+          setTimeout(typeWriter, 3000);
+        }
+    </script> -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <!-- Slick Slider -->
     <script src="assets/js/slick.min.js"></script>
@@ -810,6 +839,7 @@
 
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
+
     
 </body>
 </html>

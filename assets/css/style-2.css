@@ -1224,7 +1224,7 @@
   border-radius: 20px;
   /* margin-left: -160px; */
   z-index: 2;
-  margin-top: 130px;
+  margin-top: 50px;
   padding: 70px 60px;
   /* Large devices */
   /* Small devices */
@@ -2430,7 +2430,7 @@
     background-color: var(--smoke-color);
     border: 10px solid var(--white-color);
     border-radius: 100px;
-    /* margin-left: -350px; */
+    margin-left: -25px;
     z-index: 2;
     /* top: 20px; */
     padding: 30px;
@@ -2446,16 +2446,16 @@
   
   @media (max-width: 991px) {
     .about7-area-wrapper {
-      /* display: grid; */
+      display: grid;
       /* grid-template-columns: repeat(2, 1fr); */
-      gap: 20px;
-      padding: 40px 40px;
+      gap: 0px;
+      padding: 20px;
     }
   }
   
   @media (max-width: 767px) {
     .about7-area-wrapper {
-      grid-template-columns: repeat(1, 1fr);
+      /* grid-template-columns: repeat(1, 1fr); */
       border-radius: 50px;
     }
   }
@@ -2485,6 +2485,17 @@
     text-transform: capitalize;
     color: var(--theme-color);
     margin-bottom: 5px;
+  }
+
+  .aprv-img{
+    max-width:60%;
+  }
+
+  @media (max-width: 991px) {
+    .aprv-img{
+      max-width: 100%;
+      padding: 20px;
+    }
   }
   
   .th-experience.style3 .experience-text {
@@ -3133,4 +3144,10 @@
 
 .checklist.style7{
   margin-bottom: 20px;
+}
+
+.container-type{
+  display: inline-block;
+  font-family: "arial";
+  font-size: 24px;
 }
